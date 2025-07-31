@@ -19,9 +19,9 @@ let loggedInUser = (
 ) => {
   if (isEmployee) {
     return `I am ${name}`;
-  } else console.log("Not employee");
+  } else return "Not employee";
 };
 
-console.log(loggedInUser("Smriti", "smriti@gmail.com", true));
+console.log(loggedInUser("Smriti", "smriti@gmail.com"));
 
 export {};

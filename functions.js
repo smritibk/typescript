@@ -15,6 +15,6 @@ var loggedInUser = function (name, email, isEmployee) {
         return "I am ".concat(name);
     }
     else
-        console.log("Not employee");
+        return "Not employee";
 };
-console.log(loggedInUser("Smriti", "smriti@gmail.com", true));
+console.log(loggedInUser("Smriti", "smriti@gmail.com"));
