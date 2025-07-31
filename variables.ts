@@ -4,7 +4,7 @@ let caseChanged = myName.toUpperCase();
 console.log(caseChanged);
 
 //number
-let myNumber: number = 10;
+let myNumber = 10;
 console.log(myNumber);
 
 //boolean

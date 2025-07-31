@@ -5,3 +5,23 @@ function addTwo(num: number) {
 let myNum = addTwo(6);
 
 console.log(myNum);
+
+function getUpperCase(val: string) {
+  return val.toUpperCase();
+}
+
+console.log(getUpperCase("Hello world!"));
+
+let loggedInUser = (
+  name: string,
+  email: string,
+  isEmployee: boolean = false
+) => {
+  if (isEmployee) {
+    return `I am ${name}`;
+  } else console.log("Not employee");
+};
+
+console.log(loggedInUser("Smriti", "smriti@gmail.com", true));
+
+export {};
