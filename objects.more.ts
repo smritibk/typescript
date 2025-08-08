@@ -28,12 +28,12 @@ type creditCardDate = {
 // This allows us to create a new type that includes properties from both types.
 type cardDetails = creditCardNumber & creditCardDate;
 
-let myCardDetails: cardDetails = {
+let myCardDetail: cardDetails = {
   cardNumber: "1234-5678",
   cardDate: "12-14",
 };
 
-console.log(myCardDetails);
+console.log(myCardDetail);
 
 // myUser._id = "67890";
 // Uncommenting the line above will cause a TypeScript error because _id is readonly, so we cannot reassign it.

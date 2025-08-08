@@ -6,7 +6,6 @@ let numbers: number[] = [1, 2, 3, 4, 5];
 //another way of creating an array using the Array constructor
 let moreNumbers: Array<number> = new Array(6, 7, 8, 9, 10);
 
-
 type Person = {
   name: string;
   age: number;
@@ -48,3 +47,12 @@ superHeroes.push({
 });
 
 console.log(superHeroes);
+
+//array of an array
+const matrix: number[][] = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+console.log(matrix);

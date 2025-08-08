@@ -1,23 +1,23 @@
 //type alias example
 // This code demonstrates the use of type aliases in TypeScript.
 
-type User = {
-  name: string;
-  age: number;
-  isActive: boolean;
-};
+// type User = {
+//   name: string;
+//   age: number;
+//   isActive: boolean;
+// };
 
-function createUser(user: User) {
-  return user;
-}
+// function createUser(user: User) {
+//   return user;
+// }
 
-console.log(
-  createUser({
-    name: "John",
-    age: 30,
-    isActive: true,
-  })
-);
+// console.log(
+//   createUser({
+//     name: "John",
+//     age: 30,
+//     isActive: true,
+//   })
+// );
 
 
 
